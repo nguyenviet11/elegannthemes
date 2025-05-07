@@ -7,11 +7,8 @@ import { useEffect } from "react";
 
 export default function page() {
     useEffect(() => {
-      const timeout = setTimeout(() => {
         window.location.href = "https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=80748";
-      }, 300);
-      return () => clearTimeout(timeout);
-      }, []);
+    }, []);
   return (
     <div>
       <main className={styles.main}>
