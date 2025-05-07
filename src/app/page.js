@@ -14,6 +14,7 @@ export default function Home() {
     <div
       onMouseMove={handleClick}
       // onClick={handleClick}
+      onTouchMove={handleClick}
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
